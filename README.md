@@ -31,14 +31,14 @@ This repository contains the backend code for a React Native application. The ba
     ```env
     PORT=5000
     MONGODB_URI=your_mongodb_connection_string
-    JWT_SECRET=your_secret_key
+    JWT_SECRET=
     ```
 
 ### Running the Server
 
-Start the development server:
+Start server:
 ```sh
-npm run dev
+node server.js
 ```
 
 The server will start on `http://localhost:5000`.
