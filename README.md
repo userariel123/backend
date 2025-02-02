@@ -14,7 +14,7 @@ This repository contains the backend code for a React Native application. The ba
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/your-repo-name.git
+    git clone https://github.com/userariel123/backend.git
     ```
 2. Navigate to the project directory:
     ```sh
