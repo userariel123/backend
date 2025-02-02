@@ -14,11 +14,11 @@ This repository contains the backend code for a React Native application. The ba
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/your-repo-name.git
+    git clone https://github.com/userariel123/backend.git
     ```
 2. Navigate to the project directory:
     ```sh
-    cd your-repo-name
+    cd backend
     ```
 3. Install the dependencies:
     ```sh
@@ -57,17 +57,7 @@ The server will start on `http://localhost:5000`.
 - `PUT /api/users/:id` - Update user by ID
 - `DELETE /api/users/:id` - Delete user by ID
 
-## Contributing
 
-1. Fork the repository
-2. Create a new branch (`git checkout -b feature-branch`)
-3. Commit your changes (`git commit -m 'Add some feature'`)
-4. Push to the branch (`git push origin feature-branch`)
-5. Open a pull request
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 
