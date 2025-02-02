@@ -1,0 +1,76 @@
+# Backend for React Native Application
+
+This repository contains the backend code for a React Native application. The backend is built using Node.js and Express, and it provides RESTful APIs for the mobile app.
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v14 or higher)
+- npm (v6 or higher)
+- MongoDB (v4 or higher)
+
+### Installation
+
+1. Clone the repository:
+    ```sh
+    git clone https://github.com/yourusername/your-repo-name.git
+    ```
+2. Navigate to the project directory:
+    ```sh
+    cd your-repo-name
+    ```
+3. Install the dependencies:
+    ```sh
+    npm install
+    ```
+
+### Configuration
+
+1. Create a `.env` file in the root directory and add the following environment variables:
+    ```env
+    PORT=5000
+    MONGODB_URI=your_mongodb_connection_string
+    JWT_SECRET=your_secret_key
+    ```
+
+### Running the Server
+
+Start the development server:
+```sh
+npm run dev
+```
+
+The server will start on `http://localhost:5000`.
+
+## API Endpoints
+
+### Authentication
+
+- `POST /api/auth/register` - Register a new user
+- `POST /api/auth/login` - Login a user
+
+### User
+
+- `GET /api/users` - Get all users
+- `GET /api/users/:id` - Get user by ID
+- `PUT /api/users/:id` - Update user by ID
+- `DELETE /api/users/:id` - Delete user by ID
+
+## Contributing
+
+1. Fork the repository
+2. Create a new branch (`git checkout -b feature-branch`)
+3. Commit your changes (`git commit -m 'Add some feature'`)
+4. Push to the branch (`git push origin feature-branch`)
+5. Open a pull request
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+
+- [Express](https://expressjs.com/)
+- [MongoDB](https://www.mongodb.com/)
+- [Mongoose](https://mongoosejs.com/)
